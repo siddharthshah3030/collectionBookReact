@@ -14,7 +14,7 @@ const characters = this.props.character.map((c,i) => (
         <img src={img} alt={title}/>
       </div>
       <div className="ghostcardcontent">
-        <h3 className="ghosttitle" > Ghosts  {title}</h3>
+        <h3 className="ghosttitle" >   {title}</h3>
         <h4>characters</h4>
         <ul>
         {characters}

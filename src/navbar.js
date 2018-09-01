@@ -13,7 +13,6 @@ class Navbar extends Component {
   <li><a>contact developer</a></li>
 </nav>
 </header>
-
     );
   }
 }
