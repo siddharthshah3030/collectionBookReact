@@ -1,11 +1,11 @@
-.ghost-list {
+.ghostlist {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 @media (max-width: 580px) {
-  .ghost-list {
+  .ghostlist {
     display:block;
   }
 }
