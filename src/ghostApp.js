@@ -7,7 +7,11 @@ class GhostApp extends Component {
   render() {
     return (
       <div className="App">
-      <Ghost title="annabelle" character={['small','doll']}  />
+      <Ghost
+      title="annabelle"
+      character={['small','doll']}
+      instructions="run away"
+      img="04.jpeg"  />
       </div>
     );
   }
